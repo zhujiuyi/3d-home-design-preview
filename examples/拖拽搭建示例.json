@@ -1,0 +1,228 @@
+{
+  "version": 2,
+  "name": "拖拽验收户型",
+  "floorplan": {
+    "rooms": [
+      {
+        "id": "room-muyaxp6l19jkq2",
+        "name": "房间 1",
+        "poly": [
+          [
+            -3900,
+            -2700
+          ],
+          [
+            0,
+            -2700
+          ],
+          [
+            0,
+            1600
+          ],
+          [
+            -3900,
+            1600
+          ]
+        ],
+        "mat": "wood",
+        "at": [
+          -1950,
+          -550
+        ]
+      },
+      {
+        "id": "room-muyb2g9chl70ih",
+        "name": "房间 2",
+        "poly": [
+          [
+            240,
+            -2700
+          ],
+          [
+            5100,
+            -2700
+          ],
+          [
+            5100,
+            2300
+          ],
+          [
+            240,
+            2300
+          ]
+        ],
+        "mat": "wood",
+        "at": [
+          2670,
+          -200
+        ]
+      }
+    ],
+    "walls": [
+      [
+        -4140,
+        -2940,
+        240,
+        -2700,
+        "e",
+        {
+          "id": "wall-muyaxp6ltfuyrr",
+          "roomId": "room-muyaxp6l19jkq2",
+          "edge": 0
+        }
+      ],
+      [
+        0,
+        -2700,
+        240,
+        1600,
+        "e",
+        {
+          "id": "wall-muyaxp6ljhvpy8",
+          "roomId": "room-muyaxp6l19jkq2",
+          "edge": 1
+        }
+      ],
+      [
+        -4140,
+        1600,
+        240,
+        1840,
+        "e",
+        {
+          "id": "wall-muyaxp6l6uy5j4",
+          "roomId": "room-muyaxp6l19jkq2",
+          "edge": 2
+        }
+      ],
+      [
+        -4140,
+        -2700,
+        -3900,
+        1600,
+        "e",
+        {
+          "id": "wall-muyaxp6lkqfvnv",
+          "roomId": "room-muyaxp6l19jkq2",
+          "edge": 3
+        }
+      ],
+      [
+        0,
+        -2940,
+        5340,
+        -2700,
+        "e",
+        {
+          "id": "wall-muyb2g9c5ev5v5",
+          "roomId": "room-muyb2g9chl70ih",
+          "edge": 0
+        }
+      ],
+      [
+        5100,
+        -2700,
+        5340,
+        2300,
+        "e",
+        {
+          "id": "wall-muyb2g9cg48i31",
+          "roomId": "room-muyb2g9chl70ih",
+          "edge": 1
+        }
+      ],
+      [
+        0,
+        2300,
+        5340,
+        2540,
+        "e",
+        {
+          "id": "wall-muyb2g9cx0qtpy",
+          "roomId": "room-muyb2g9chl70ih",
+          "edge": 2
+        }
+      ],
+      [
+        0,
+        -2700,
+        240,
+        2300,
+        "e",
+        {
+          "id": "wall-muyb2g9cnif6gj",
+          "roomId": "room-muyb2g9chl70ih",
+          "edge": 3
+        }
+      ]
+    ],
+    "windows": [
+      [
+        -3250,
+        -2940,
+        -1450,
+        -2700,
+        {
+          "id": "window-muyb08xn1x0jkq",
+          "wallId": "wall-muyaxp6ltfuyrr"
+        }
+      ]
+    ],
+    "doors": [
+      {
+        "id": "door-muyazw0spo54tp",
+        "name": "房门",
+        "rect": [
+          -2600,
+          1600,
+          -1600,
+          1840
+        ],
+        "h": [
+          -2600,
+          1600
+        ],
+        "c": [
+          1,
+          0
+        ],
+        "o": [
+          0,
+          -1
+        ],
+        "len": 1000,
+        "wallId": "wall-muyaxp6l6uy5j4",
+        "entry": true,
+        "side": -1,
+        "hingeEnd": 0
+      }
+    ],
+    "slides": [],
+    "legacyDetails": false
+  },
+  "furniture": [
+    {
+      "id": "fmuyb3uux47",
+      "type": "bed",
+      "name": "双人床 1.8m",
+      "cx": -2210,
+      "cy": -1010,
+      "w": 1800,
+      "d": 2000,
+      "rot": 0,
+      "color": "#c9d6df"
+    }
+  ],
+  "rooms": {
+    "room-muyaxp6l19jkq2": {
+      "name": "房间 1",
+      "mat": "wood"
+    },
+    "room-muyb2g9chl70ih": {
+      "name": "房间 2",
+      "mat": "wood"
+    }
+  },
+  "demolished": [],
+  "measures": []
+}
